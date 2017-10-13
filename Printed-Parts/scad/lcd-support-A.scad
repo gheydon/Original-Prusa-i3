@@ -83,8 +83,8 @@ difference()
     
 
 
-
-
+module lcdsupporta()
+{
 difference() {
     
 rotate([0,0,45]) body();
@@ -105,13 +105,12 @@ translate( [ -83 , -16 , -1 ] ) rotate([0,0,45]) cube( [ 20 , 20 , 15 ] );
 
 ziptie();
 // ziptie head cutout
-translate( [ -74 , 38 , 5 ] ) rotate([90,0,0]) cylinder( h = 5, r = 3, $fn=30);  
-    
-
+translate( [ -74 , 38 , 5 ] ) rotate([90,0,0]) cylinder( h = 5, r = 3, $fn=30);
 
 }
+}
 
-
+supporta();
 
 
 
